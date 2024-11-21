@@ -9,7 +9,7 @@ const App: React.FC = () => {
       if (!value || value.includes('@')) {
         return [];
       }
-      return ['gmail.com', '163.com', 'qq.com'].map((domain) => ({
+      return ['gmail.com', 'hotmail.com', '163.com', 'qq.com'].map((domain) => ({
         label: `${value}@${domain}`,
         value: `${value}@${domain}`,
       }));
